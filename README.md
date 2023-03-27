@@ -1,5 +1,5 @@
 # A Logo Generator App
-## https://user-images.githubusercontent.com/46049501/227925579-5f349fd6-4adf-463f-86e8-3b593bdcabe7.mp4
+## ![Demo Video](https://user-images.githubusercontent.com/46049501/227925579-5f349fd6-4adf-463f-86e8-3b593bdcabe7.mp4)
 ## Demo Video
 
 [Demo Video](./Demo/App_Demo.mp4)
