@@ -87,7 +87,7 @@ inquirer
     logoShape.setColor(shapeColor);
 
     // Generate the logo SVG and save it to a file
-    const logoSVG = `<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">${logoShape.render()}<text x="150" y="120" font-size="65" fill="${logoTextObj.color}" text-anchor="middle" alignment-baseline="central">${logoTextObj.text}</text></svg>`;
+    const logoSVG = `<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">${logoShape.render()}<text x="150" y="100" font-size="55" fill="${logoTextObj.color}" text-anchor="middle" alignment-baseline="central">${logoTextObj.text.toUpperCase()}</text></svg>`;
 
 
     const logoFilename = `${logoText}.svg`;
