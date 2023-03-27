@@ -12,13 +12,13 @@ function colorValidate(input) {
   }
 
   if (!color.startsWith("#")) {
-    color = `#${color}`;
-    if (/^#?([0-9a-fA-F]{3}){1,2}$/.test(color)) {
-      return true;
-    }
+    return "Please start with a '#' if you want to input a hexadecimal color code";
+    
   }
   // check if input is a valid hexadecimal color code with or without the "#" character
-
+  if (/^#?([0-9a-fA-F]{3}){1,2}$/.test(color)) {
+    return true;
+  }
 
   return "Please enter a valid color keyword or hexadecimal color code";
 }
