@@ -12,8 +12,7 @@
 
 ##  Links
 
-###### The App https://unbmattzhao.github.io/Weather_Dashboard_APP/
-###### The code https://github.com/unbmattzhao/Weather_Dashboard_APP
+###### The code https://github.com/unbmattzhao/Logo_Generator
 
 
 
