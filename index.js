@@ -92,7 +92,7 @@ inquirer
 
     const logoFilename = `${logoText}.svg`;
     try {
-      await fs.writeFile(logoFilename, logoSVG, function (err) {
+      await fs.writeFile(`./dist/${logoFilename}`, logoSVG, function (err) {
         if (err) throw err;
         console.log(`Logo generated and saved to file: ${logoFilename}`);
       });
